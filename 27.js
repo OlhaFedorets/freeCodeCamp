@@ -1,0 +1,6 @@
+function fightSlime() {
+
+}
+function fightBeast() {
+
+}
