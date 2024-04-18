@@ -4,6 +4,7 @@ function sellWeapon() {
       gold += 15;
       goldText.innerText = gold;
       let currentWeapon = inventory.shift();
-  text.innerText = "You sold a " + currentWeapon + "."
+      text.innerText = "You sold a " + currentWeapon + ".";
+  text.innerText += " In your inventory you have: " + inventory 
     }
   }
