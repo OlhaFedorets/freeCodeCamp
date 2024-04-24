@@ -17,3 +17,9 @@ p {
   .flavor {
     text-align: left;
   }
+  .price {
+    text-align: right;
+  }
+  .item p{
+    display: inline-block;
+  }
