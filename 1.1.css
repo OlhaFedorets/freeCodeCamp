@@ -2,8 +2,17 @@ body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
 }
+
 .established {
   font-style: italic
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 h1,
@@ -19,6 +28,12 @@ p {
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
 }
 
 h1,
