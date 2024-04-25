@@ -2,6 +2,9 @@ body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
 }
+.established {
+  font-style: italic
+}
 
 h1,
 h2,
@@ -20,7 +23,7 @@ p {
 
 h1,
 h2 {
-  font-family: Impact;
+  font-family: Impact, serif;
 }
 
 .flavor,
