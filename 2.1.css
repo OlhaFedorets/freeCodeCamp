@@ -1,3 +1,13 @@
 h1 {
-    text-align: center;
-  }
+  text-align: center;
+}
+
+.marker {
+  height: 25px;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.one {
+  background-color: red;
+}
