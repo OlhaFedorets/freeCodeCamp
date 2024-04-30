@@ -2,8 +2,11 @@
     width: 500px;
     height: 600px;
     background-color: #4d0f00;
-  }
-  .frame {
+}
+
+.frame {
     border: 50px solid black;
     width: 500px;
-  }
+    padding: 50px;
+    margin: 20px auto;
+}
