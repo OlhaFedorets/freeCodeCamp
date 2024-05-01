@@ -18,6 +18,7 @@
     height: 150px;
     background-color: #efb762;
     margin: 20px auto;
+    box-shadow: 0 0 3px 3px #efb762;
 }
 
 .two {
@@ -26,6 +27,7 @@
     background-color: #8f0401;
     margin: auto;
     margin: 0 auto 20px auto;
+    box-shadow: 0 0 3px 3px #8f0401;
 }
 
 .one,
@@ -38,4 +40,6 @@
     height: 28%;
     background-color: #b20403;
     margin: auto;
+    filter: blur(2px);
+    box-shadow: 0 0 5px 5px #b20403;
 }
