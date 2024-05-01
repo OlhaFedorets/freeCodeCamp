@@ -11,15 +11,22 @@
     padding: 50px;
     margin: 20px auto;
 }
+
 .one {
     width: 425px;
     height: 150px;
     background-color: #efb762;
     margin: 20px auto;
-  }
-  .two {
+}
+
+.two {
     width: 475px;
     height: 200px;
     background-color: #8f0401;
     margin: auto;
-  }
+}
+
+.three {
+    width: 91%;
+    height: 28%;
+}
