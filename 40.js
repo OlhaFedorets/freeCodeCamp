@@ -15,6 +15,9 @@ function attack() {
         }
     }
 }
+
+function getMonsterAttackValue(level) {} 
+
 function update(location) {
     monsterStats.style.display = "none";
     button1.innerText = location["button text"][0];
