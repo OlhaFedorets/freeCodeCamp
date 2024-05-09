@@ -19,9 +19,10 @@
                     pattern="[a-z0-5]{8,}" required /></label>
         </fieldset>
         <fieldset>
-            <label><input name="account-type" type="radio" /> Personal</label>
-            <label><input name="account-type" type="radio" /> Business</label>
-          </fieldset>
+            <legend>Account type (required)</legend>
+            <label><input checked type="radio" name="account-type" /> Personal</label>
+            <label><input type="radio" name="account-type" /> Business</label>
+        </fieldset>
         <fieldset></fieldset>
         <input type="submit" value="Submit" />
     </form>
