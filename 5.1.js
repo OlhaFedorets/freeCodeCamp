@@ -24,3 +24,11 @@ function getAverage(scores) {
       return "F"
     }
    }
+
+   function hasPassingGrade(score) {
+    if (score < 60) {
+      return false
+    }
+    return true
+  }
+  
