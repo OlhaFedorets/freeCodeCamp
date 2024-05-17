@@ -31,4 +31,12 @@ function getAverage(scores) {
     }
     return true
   }
+
+
+  function studentMsg(totalScores, studentScore) {
+    if (studentScore < 60) {
+      return "Class average: " + getAverage(totalScores) + "." + " Your grade: " + getGrade(studentScore) + "." + " You failed the course."
+    } else {return "Class average: " + getAverage(totalScores) + "." + " Your grade: " + getGrade(studentScore) + "." + " You passed the course."
+    }
+  }
   
