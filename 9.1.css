@@ -34,3 +34,9 @@ nav>ul {
     display: flex;
     justify-content: space-evenly;
 }
+
+h1,
+h2 {
+    font-family: Verdana, sans-serif;
+
+}
